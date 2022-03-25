@@ -30,3 +30,5 @@ $ pip install wikipedia
 ```
 
 ## Screenshot
+
+<img src="images/Screenshot.png" width="378px">
