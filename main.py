@@ -44,14 +44,11 @@ class Window(Gtk.Window):
         button.connect("clicked", self.getQuery)
         hbox_left.pack_start(button, True, True, 0)
        
-        
-        
         box_fatter.pack_start(hbox_left, False, False, 0)
         box_fatter.pack_start(grid, True, True, 0)
         
         self.add(hbox)
         
-    
     def getQuery(self,button):
         """
         Get query of wikipedia
